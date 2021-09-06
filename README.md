@@ -1,10 +1,12 @@
-# Nest.Js + React Pokedex
+# Nest.js + React 'Who's That Pokemon?'
 
-This project was designed and built as part of a technical assessment for a developer interview.
+This project was designed and built as part of a technical assessment for a developer interview. The assessment was to display a paginated view of pokemon using the PokeAPI with requests handled by a NestJs backend.
 
 ![alt text](src/images/demo.gif)
 
-The assessment was to display a paginated view of pokemon using the PokeAPI with requests handled by a NestJs backend. Since the objective only specified displaying some basic infomration about each Pokemon (name, image, moves, etc ), I decided it would be fun to recreate the classic "Who's that Pokemon?" question game from the pokemon TV series.
+Since the objective only specified displaying some basic infomration about each Pokemon (**name**, **image**, **moves**, etc ), I decided it would be fun to recreate the classic "Who's that Pokemon?" question game from the pokemon TV series.
+
+In addition to Nest.js and React, I also used **Material UI** on this project in addition to a **React-Flippy** for the card animation.
 
 ## Running the Nest.js server
 
