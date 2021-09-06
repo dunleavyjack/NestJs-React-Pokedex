@@ -2,6 +2,8 @@
 
 This project was designed and built as part of a technical assessment for a developer interview.
 
+![alt text](src/images/demo.gif)
+
 ## Running the Nest.js server
 
 In the backend directory, you can run:
