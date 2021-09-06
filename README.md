@@ -1,6 +1,6 @@
 # Nest.js + React 'Who's That Pokemon?'
 
-This project was designed and built as part of a technical assessment for a developer interview. The assessment was to display a paginated view of pokemon using the PokeAPI with requests handled by a NestJs backend.
+This project was designed and built as part of a technical assessment for a developer interview. The assessment was to display a paginated view of pokemon using the **PokeAPI** with requests handled by a NestJs backend.
 
 ![alt text](src/images/demo.gif)
 
