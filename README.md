@@ -4,9 +4,9 @@ This project was designed and built as part of a technical assessment for a deve
 
 ![alt text](src/images/demo.gif)
 
-Since the objective only specified displaying some basic infomration about each Pokemon (**name**, **image**, **moves**, etc ), I decided it would be fun to recreate the classic "Who's that Pokemon?" question game from the pokemon TV series.
+Since the objective only specified displaying some basic information about each Pokemon (**name**, **image**, **moves**, etc ), I decided it would be fun to recreate the classic "Who's that Pokemon?" question game from the pokemon TV series.
 
-In addition to Nest.js and React, I also used **Material UI** on this project in addition to a **React-Flippy** for the card animation.
+In addition to Nest.js and React, I also used **Material UI** to build this project in addition to a **React-Flippy** for the card animation.
 
 ## Running the Nest.js server
 
