@@ -3,7 +3,7 @@ import PokemonCard from './PokemonCard';
 import LoadingCard from './LoadingCard';
 import axios from 'axios';
 
-const baseURL = 'http://localhost:3000/pokemon';
+const baseURL = 'https://nest-js-react-pokedex-backend.vercel.app/pokemon';
 
 const PokemonCardContainer = ({ id, loading, setLoading }) => {
     const [currentPokemon, setCurrentPokemon] = useState(null);
