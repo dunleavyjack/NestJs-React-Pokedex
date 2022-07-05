@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+# Nest.js + React 'Who's That Pokemon?'
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was designed and built as part of a technical assessment for a full-stack developer interview. The objective was to display a paginated view of pokemon using the **PokeAPI** with requests handled by a NestJs backend.
 
-## Available Scripts
+![alt text](src/images/demo.gif)
 
-In the project directory, you can run:
+The instructions were to first display each pokemon's name and image, with further information displayed when a user clicks on that pokemon. With these contraints in mind, I decided it would be more fun to make a simple game out of it, like the "Who's that Pokemon?" segment from the Pokemon TV series I watched as a kid.
+
+Since the first objective was to display the pokemon's name and image, I additionally scrambled each name (to provide a 'hint' to the user) and reduced the images' brightness to 0 to create a silhouette. When a user clicks the pokemon card, it flips to reveal the unscrambled name, a colored image, and additional information about that Pokemon.
+
+In addition to Nest.js and React, I also used **Material UI** to build this project in addition to a **React-Flippy** for the card animation.
+
+## Running the Nest.js server
+
+In the backend directory, you can run:
+
+### `npm run start:dev`
+
+Runs the server in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view the server in the browser.
+
+## Running the React front end UI
+
+In the root directory, after running the server, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Runs the server in the development mode.\
+Open [http://localhost:3001](http://localhost:3001) to view the server in the browser.
